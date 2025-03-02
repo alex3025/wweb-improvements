@@ -1,0 +1,238 @@
+@use 'palette';
+
+
+// Full Screen
+.app-wrapper-web ._aigs {
+    top: unset !important;
+    width: 100% !important;
+    max-width: unset !important;
+    height: 100% !important;
+    margin: unset !important;
+    box-shadow: unset !important;
+}
+
+// Loading Screen Credits
+#app > div > div._alyo._alyw > div.x1f6kntn.xhslqc4.xk82a7y.xg87l8a {
+
+    &::after {
+        position: fixed;
+        left: 50%;
+        bottom: 25px;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        text-align: center;
+        content: 'Theme crafted with ❤ by alex3025\A \A(https://github.com/alex3025)';
+        white-space: pre;
+    }
+}
+
+// Loading screen background color
+._alyo {
+    background-color: #{palette.$dark-950} !important;
+}
+
+// Buttons transition duration
+html#whatsapp-web button {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke !important;
+    transition-duration: 100ms !important;
+}
+
+// Chat Search Bottom Padding
+._ak9t {
+    padding-bottom: 5.5px;
+    border-bottom: 1px solid #{palette.$dark-850} !important;
+}
+
+// Chat Search Placeholder Padding
+._ah_- {
+    left: 35px !important;
+}
+
+// Chat Search Text Padding and Pill Border Radius and Border color
+._ai05 {
+    padding-left: 35px !important;
+    border-radius: 50px !important;
+    border: 1px solid #{palette.$dark-825} !important;
+}
+
+// Dropdown divider color
+.xyj1x25 {
+    border-top-color: #{palette.$dark-775} !important;
+}
+
+// Privacy secondary text color fix
+.x16zc8z2 {
+    color: #{palette.$dark-350} !important;
+}
+
+// Chat time separator border radius
+._amkb {
+    border-radius: 50px !important;
+    min-width: 4rem !important;
+}
+
+// input border radius
+.xgqcy7u, .x9jhf4c, .x30kzoy, .x1lq5wgf {
+    border-radius: 14px !important;
+}
+
+// Dropdown border
+._ak4w {
+    border: 1px solid #{palette.$dark-750} !important;
+
+    // Chat attachment popup y-padding
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+
+    // Other dropdowns border fix
+    &._ak52,
+    &._aos4 {
+        border: none !important;
+    }
+}
+
+// Chat input border top (screen border bottom)
+._amm9 {
+    border-bottom: 1px solid #{palette.$dark-850} !important;
+}
+
+// Search bar back arrow position fix
+._ai08 {
+    top: 5.45px !important;
+    left: 7px !important;
+}
+
+// Chat input text cursor padding
+.x1lj6vcq {
+    padding-left: 35px !important;
+}
+
+// Chat input placeholder padding
+.x1r1tlb4 {
+    left: 0px !important;
+}
+
+// React calendar border fix
+.xf2fit4:first-child>.react-calendar {
+    border: 1px solid #{palette.$dark-800} !important;
+    border-radius: var(--radius-app) !important;
+}
+
+.x1irigvy:first-child .react-calendar__navigation {
+    border-top-left-radius: var(--radius-app) !important;
+    border-top-right-radius: var(--radius-app) !important;
+}
+
+// Archived chat header height fix
+.x11aied4 {
+    height: unset !important;
+}
+
+// Butter bar border bottom
+._amil {
+    border-bottom: 1px solid #{palette.$dark-850} !important;
+}
+
+// Connection butterbar reconnect link fix
+.x1lliihq {
+    // margin-top: 5px !important;
+    color: #{palette.$dark-300} !important;
+}
+
+.xt0b8zv:hover {
+    color: #{palette.$dark-150} !important;
+    text-decoration: none !important;
+}
+
+// Fix "new" title colors
+header.x150wa6m {
+    background-color: #{palette.$dark-925} !important;
+}
+
+// Fix "new" title padding
+.x9mfa4r {
+    padding-left: 13px !important;
+}
+
+// Restore chat left up divider
+._aqbz {
+    border-left: 1px solid var(--conversation-header-border) !important;
+}
+
+// Chat category chips fix
+.x1nn3v0j[aria-label='chat-list-filters'] {
+    padding-top: 12.5px !important;
+    justify-content: center !important;
+    padding-bottom: 12.5px !important;
+    border-bottom: 1px solid #{palette.$dark-875} !important;
+}
+
+// Chat top margin fix
+// Chat category chips fix chat border space
+.x1nn3v0j:not([aria-label='chat-list-filters'])[role='grid'] {
+    margin-top: -3px !important;
+}
+
+// Chat category chips text size
+.xo1l8bm {
+    font-size: 10pt !important;
+}
+
+// Archived chat height fix
+._ak72._ak7_ {
+    height: var(--chatlist-avatar-h);
+}
+
+// Text format popup fix
+.x1op4030 {
+    border: 1px solid #{palette.$dark-750} !important;
+    border-radius: 50px !important;
+}
+
+.xrt01vj {
+    border-radius: 50px !important;
+}
+
+// Reaction picker border
+// .xdzyupr {
+//     border: 1px solid #{palette.$dark-750} !important;
+//     border-radius: 50px !important;
+// }
+
+// BETA badge fix
+.xmyihoe {
+    background-color: #{palette.$dark-900} !important;
+    color: #{palette.$dark-500} !important;
+    border-color: #{palette.$dark-850} !important;
+    font-weight: 500 !important;
+}
+
+// Hide download whatsapp in home screen
+.xktia5q div:nth-child(2) {
+    display: none !important;
+}
+
+// Disable 2px border sidebar
+.xbyj736 {
+    border-right-width: 0px !important;
+}
+
+// Modal backdrop
+.xa03szm {
+    background-color: rgba(palette.$dark-950, 0.5) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+// Typing... animation
+html#whatsapp-web ._ak8k span.x1v5yvga {
+    background: linear-gradient(-75deg, var(--button-primary-background) 0, #00dfae 10%, var(--button-primary-background) 20%);
+    background-clip: text;
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    animation: typingShineAnimation 2s linear infinite !important;
+}
+@keyframes typingShineAnimation {
+    0% { background-position: 400%; }
+    50% { background-position: 200%; }
+    100% { background-position: 200%; }
+}
