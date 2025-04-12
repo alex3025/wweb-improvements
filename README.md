@@ -1,5 +1,9 @@
 # WWeb Improvements
 
+#### ⚠ No longer maintained because WhatsApp decided to release a new UI that's finally not bad.
+
+---
+
 > ℹ **DISCLAIMER:** this project was born out of personal need, any changes are purely based on my opinions and needs.
 >
 > a.k.a. _I do what I want, when I want and how I want_ ;)
